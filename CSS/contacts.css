@@ -1,0 +1,201 @@
+body{
+    background-color: rgb(238, 237, 237);
+}
+#div1{
+    background-color: rgb(238, 237, 237);
+    height: 34px;
+}
+#li1{margin-left:140px ;}
+
+nav{
+    display: flex;
+    align-content: center;
+    background-color: rgb(1, 15, 43);
+    display: flex;
+    text-indent: 20px;
+    font-family: Arial;
+    font-size: 10pt;
+    padding: 5px;
+}
+nav ul li{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+nav ul li::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background:rgb(2, 195, 243);
+    position: absolute;
+    left:  10px;
+    bottom: -10px;
+    transition: 0.3s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
+#img1{
+    height:545px ;
+    width: 1350px;
+}
+#p1{
+    color: rgb(1, 15, 43);
+    text-indent: 200px;
+    padding-bottom: 5px;
+}
+.pnav{
+    color: black;
+    font-family: Arial;
+    position: absolute;
+}
+#p2{
+    font-size: 60pt;
+    top:140px;
+    left: 520px;
+}
+#p3,#p4{
+    font-size: 17pt;
+    top:300px;
+    background: rgb(3, 201, 228);
+    width: 0px;
+    height: 30px;
+    transition: width 1s;
+}
+#p3{
+    left: 580px;}
+#p3:hover{
+    width:100px;}
+#p4{
+    left: 710px;}
+#p4:hover{
+    width:90px;}
+
+/*This div 3 is the FOOTER*/
+#div3{
+    position: absolute;
+    top:400px;
+    background-color: rgb(0, 10, 56);
+    color: white;
+    width: 100%;
+    height: 250px;
+    font-family: CAlibri;
+    font-size: 28pt;
+    
+}
+#pdiv3{
+    margin-left: 100px;
+}
+#div4{
+    position: absolute;
+    top:500px;
+    color: white;
+    padding: 10px 100px;
+    font-family: Calibri;
+    font-size: 14pt;
+}
+.contact{
+    color: white;
+    position: absolute;
+    font-family: Calibri;
+}
+#contact1,#contact2{
+    left:1000px;
+}
+#contact1{
+    font-size: 12pt;
+    top:450px; 
+}
+#contact2{
+    font-size: 16pt;
+    top:400px;
+}
+#contact3{
+    font-size: 16pt;
+    top:400px;
+    left:600px;
+}
+#contact4{
+    font-size: 14pt;
+    top:450px;
+    left:600px;
+}
+#div5{
+    padding:10px;
+    position: absolute;
+    left: 592px;
+    bottom: 70px;
+
+}
+#button8{
+    height: 30px;
+    color: white;
+    background-color: rgb(0, 110, 255);
+    border: none;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+#in1{
+    height: 30px;
+    border:none;
+    border-radius: 3px;
+}
+.phead{
+    font-size: 8pt;
+    position: absolute;
+}
+#p5{
+    left: 650px;
+    top:12px
+}
+#p6{
+    left: 850px;
+    top:12px
+}
+#p7{
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(1, 15, 43);
+    padding: 7px 5px;
+    top: 1px;
+    left: 1030px;
+    cursor: pointer;
+}
+.images{ 
+    position: absolute;}
+.images2{ 
+    margin-left: 5px;}
+#img6,#img7{
+    height: 35px;
+    width:35px;
+    top: 55px;
+}
+#img6{ right: 350px;  }
+#img7{ right: 315px;}
+#img8{
+    height: 20px;
+    width:20px;
+    right: 285px;
+    top: 63px;
+}
+#img9{
+    height: 20px;
+    width:25px;
+    right: 245px;
+    top: 63px;
+}
+#img10,#img11{
+    margin-left: 10px;
+    top: 12px;
+}
+#img10{
+    height: 25px;
+    width:30px; 
+    left: 600px;
+}
+#img11{
+    height: 30px;
+    width:35px;
+    left: 800px;
+}

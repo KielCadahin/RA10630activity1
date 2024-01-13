@@ -1,0 +1,259 @@
+body{
+    background-color: rgb(238, 237, 237);
+}
+#div1{
+    background-color: rgb(238, 237, 237);
+    height: 34px;
+}
+#li1{margin-left:140px ;}
+
+nav{
+    display: flex;
+    align-content: center;
+    background-color: rgb(1, 15, 43);
+    display: flex;
+    text-indent: 20px;
+    font-family: Arial;
+    font-size: 10pt;
+    padding: 5px;
+}
+nav ul li{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+nav ul li::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background:rgb(2, 195, 243);
+    position: absolute;
+    left:  10px;
+    bottom: -10px;
+    transition: 0.3s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
+
+#div30{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../Pictures/justice\ 5.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#psecdiv30{
+    position: relative;
+    font-size: 15pt;
+    font-weight: normal;
+}
+#secdiv30{
+    position: relative;
+    top:55%;
+    left: 15%;
+    width: 70%;
+    height: auto;
+    color: white;
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+#p1{
+    color: rgb(1, 15, 43);
+    text-indent: 200px;
+}
+.ptxt{
+    color: white;
+    font-family: Arial;
+    position:absolute;
+}
+#p2{
+    font-size: 60pt;
+    top:140px;
+    left: 530px;
+}
+#p3,#p4{
+    font-size: 17pt;
+    top:300px;
+    background: rgb(3, 201, 228);
+    width: 0px;
+    height: 30px;
+    transition: width 1s;
+}
+#p3{
+    left: 590px;}
+#p3:hover{
+    width: 90px;}
+#p4{
+    left: 730px;}
+#p4:hover{
+    width:90px;}
+.phead{
+    font-size: 8pt;
+    position: absolute;
+}
+#p13{
+    left: 650px;
+    top:12px
+}
+#p14{
+    left: 850px;
+    top:12px
+}
+#p15{
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(1, 15, 43);
+    padding: 7px 5px;
+    top: 1px;
+    left: 1030px;
+    cursor: pointer;
+}
+
+
+.images{ 
+    position: absolute;}
+.images2{ 
+    margin-left: 5px;}
+#img6,#img7{
+    height: 35px;
+    width:35px;
+    top: 55px;
+}
+#img6{ right: 350px;  }
+#img7{ right: 315px;}
+#img8{
+    height: 20px;
+    width:20px;
+    right: 285px;
+    top: 63px;
+}
+#img9{
+    height: 20px;
+    width:25px;
+    right: 245px;
+    top: 63px;
+}
+#img10,#img11{
+    margin-left: 10px;
+    top: 12px;
+}
+#img10{
+    height: 25px;
+    width:30px; 
+    left: 600px;
+}
+#img11{
+    height: 30px;
+    width:35px;
+    left: 800px;
+}
+#p16{
+    font-size: 20pt;
+    font-weight: bold;
+}
+#p17{
+    position: relative;
+    margin-top: 10px;
+}
+
+#div2{  /*gray div*/
+    background-color: rgb(184, 184, 184);
+    width: 100%;
+    height: 600px;
+}
+#picdiv2{
+    width: 300px;
+    position: relative;
+    left:70%;
+    top: -20%;
+    
+}
+#sectiondiv22{  /*grayinside content div*/
+    width: 55%;
+    height: 30%;
+    padding: 20px;
+    text-align: justify;
+    font-weight: bold;
+    position: relative;
+    left: 70px;
+    top: 70px;
+}
+#p2div22{
+    font-size: 30pt;
+}
+#pdiv22{
+    font-size: 20pt;
+    font-family: Chaparral Pro Light;
+    font-style: italic;
+    
+}
+#div3{  /*image div*/
+    width: 100%;
+    height:1000px;
+    background-image: linear-gradient(rgba(15, 15, 15, 0.75),rgba(0,0,0,0.75)),url(../Pictures/justice2.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-top: -4%;
+}
+#sectiondiv3{
+    font-family: 'Times New Roman';
+    color: white;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    text-align: justify;
+}
+#p3div3{
+    font-size: 30pt;
+}
+#p4div3,#p5div3,#p6div3,#p7div3,#p8div3{
+    font-size: 20pt;
+}
+
+
+#divoutsec{
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    height: 600px;
+    margin-top: -3%;
+}
+#div4{
+    position: relative;
+    top: 10%;
+    bottom: 10%;
+    left: 2.5%;
+    width: 95%;
+    text-align: justify;
+    background-color: rgb(218, 218, 218);
+}
+#sectiondiv4{
+    position: relative;
+    width: 95%;
+    left: 2.5%;
+    top: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.heads{
+    text-align: center;
+    font-size: 25pt;
+    font-weight: bold;
+}
+.heads2{
+    text-align: center;
+    font-size: 20pt;
+}
+.scontent{
+    font-size: 17pt;
+}
+#psecdiv4{
+    font-size: 32pt;
+    text-align: center;
+    font-weight: bold;
+}

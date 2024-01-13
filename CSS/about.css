@@ -1,0 +1,164 @@
+body{
+    background-color: rgb(238, 237, 237);
+}
+#div1{
+    background-color: rgb(238, 237, 237);
+    height: 34px;
+}
+#li1{margin-left:140px ;}
+
+
+nav{
+    display: flex;
+    align-content: center;
+    background-color: rgb(4, 243, 163);
+    display: flex;
+    text-indent: 20px;
+    font-family: Arial;
+    font-size: 10pt;
+    padding: 5px;
+}
+nav ul li{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+nav ul li::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background:rgb(2, 195, 243);
+    position: absolute;
+    left:  10px;
+    bottom: -10px;
+    transition: 0.3s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
+#div30{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../Pictures/justice\ 5.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#p1{
+    color: rgb(1, 15, 43);
+    text-indent: 200px;
+}
+.ptxt{
+    color: white;
+    font-family: Arial;
+    position: absolute;
+}
+#p2{
+    font-size: 60pt;
+    top:140px;
+    left: 510px;
+}
+#p3,#p4{
+    font-size: 17pt;
+    top:300px;
+    background: rgb(3, 201, 228);
+    width: 0px;
+    height: 30px;
+    transition: width 1s;
+}
+#p3{
+    left: 600px;}
+#p3:hover{
+    width:70px;}
+#p4{
+    left: 700px;}
+#p4:hover{
+    width:100px;}
+
+/*Text-block means <div> over image*/
+#div3{
+    background: linear-gradient(to top,rgb(4, 243, 163),rgb(137, 255, 216),rgb(248, 248, 248),rgb(248, 248, 248));
+    position: relative;
+    top: 45%;
+    left: 16%;
+    width: 70%;
+    height: 35%;
+    color: black;
+    text-align: center;
+}
+#secdiv3{
+    position: relative;
+    left: 20%;
+    width: 60%;
+    height: auto;
+}
+#p5{
+    font-family: Chaparral Pro Light;
+    font-size: 28pt;
+    font-weight: bold;
+    font-style: italic;
+    color:black;
+    padding-top: 20px;
+}
+#p6{
+    font-size: 12pt;
+    color: black;
+}
+.phead{
+    font-size: 8pt;
+    position: absolute;
+}
+#p8{
+    left: 650px;
+    top:12px
+}
+#p9{
+    left: 850px;
+    top:12px
+}
+#p10{
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(1, 15, 43);
+    padding: 7px 5px;
+    top: 1px;
+    left: 1030px;
+    cursor: pointer;
+}
+.images{ 
+    position: absolute;}
+.images2{ 
+    margin-left: 5px;}
+#img6,#img7{
+    height: 35px;
+    width:35px;
+    top: 55px;
+}
+#img6{ right: 350px;  }
+#img7{ right: 315px;}
+#img8{
+    height: 20px;
+    width:20px;
+    right: 285px;
+    top: 63px;
+}
+#img9{
+    height: 20px;
+    width:25px;
+    right: 245px;
+    top: 63px;
+}
+#img10,#img11{
+    margin-left: 10px;
+    top: 12px;
+}
+#img10{
+    height: 25px;
+    width:30px; 
+    left: 600px;
+}
+#img11{
+    height: 30px;
+    width:35px;
+    left: 800px;
+}
